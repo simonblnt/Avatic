@@ -102,15 +102,9 @@ public class MapController : MonoBehaviour
     bool CheckForTerrain(Vector3 searchPoint)
     {
         if (!Physics2D.OverlapCircle(searchPoint, checkerRadius, terrainMask))
-        {
-            Debug.Log("false");
             return false;
-        }
         else
-        {
-            Debug.Log("true");
             return true;
-        }
     }
 
     void SpawnChunk(Vector3 terrainSpawnPosition)
