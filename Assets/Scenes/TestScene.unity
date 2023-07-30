@@ -3711,6 +3711,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1353330084}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2124962628 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7616627176034179996, guid: ec34b60c848fdee439fb62320ad9bf0e,
+    type: 3}
+  m_PrefabInstance: {fileID: 6064955382105424651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2124962629 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1251404712428722928, guid: ec34b60c848fdee439fb62320ad9bf0e,
@@ -3729,7 +3735,7 @@ PrefabInstance:
         type: 3}
       propertyPath: targetMap
       value: 
-      objectReference: {fileID: 1355252582}
+      objectReference: {fileID: 2124962628}
     - target: {fileID: 1251404712428722928, guid: ec34b60c848fdee439fb62320ad9bf0e,
         type: 3}
       propertyPath: m_RootOrder
