@@ -3266,6 +3266,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   playerMovement: {x: 0, y: 0, z: 0}
+  spawnedChunks: []
+  maxOpDist: 0
+  opDist: 0
 --- !u!4 &1437479358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4253665730406636, guid: b6993e89d9af3f64182a41c77cf345c2,
@@ -3731,6 +3734,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1834043404}
     m_Modifications:
+    - target: {fileID: 852952514906369163, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 863070191899389045, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 909574903932248259, guid: ec34b60c848fdee439fb62320ad9bf0e,
         type: 3}
       propertyPath: targetMap
@@ -3791,10 +3804,60 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1430490846416552405, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918494072819535896, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2344529562998702873, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2744309190671964469, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3087581142190458398, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5134149768944151762, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7142428878766682059, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187346444449991195, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7616627176034179996, guid: ec34b60c848fdee439fb62320ad9bf0e,
         type: 3}
       propertyPath: m_Name
       value: TerrainChunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616627176034179996, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094916952220906395, guid: ec34b60c848fdee439fb62320ad9bf0e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -17,16 +17,24 @@ public class MapController : MonoBehaviour
     Vector3 noTerrainPosition;
     public LayerMask terrainMask;
     public Vector3 playerMovement;
+    public Vector3 playerPosition;
     private TopDownController2D playerController;
-    private readonly uint chunkWidth = 20;
-    private readonly uint chunkHeight = 20;
+    private readonly uint chunkSize = 20;
+    Vector3 goalPos;
+
+    [Header("Optimization")]
+    public List<GameObject> spawnedChunks;
+    GameObject latestChunk;
+    public float maxOpDist;
+    public float opDist;
 
 
     // Start is called before the first frame update
     void Start()
     {
         levelManager = levelManagerObject.GetComponent<LevelManager>();
-        checkerRadius = chunkWidth / 100;
+        checkerRadius = 0.2f;
+        maxOpDist = 50;
     }
 
     // Update is called once per frame
@@ -38,11 +46,13 @@ public class MapController : MonoBehaviour
         }
         else
         {
+            playerPosition = levelManager.Players[0].transform.position;
             playerMovement = playerController.CurrentMovement;
-            CheckChunks();
+            UpdateChunks();
+            OptimizeChunks();
         }        
     }
-    void CheckChunks()
+    void UpdateChunks()
     {
         if (!currentChunk)
         {
@@ -81,7 +91,7 @@ public class MapController : MonoBehaviour
         if (positionStr != "Idle")
         {
             var playerGoalPoint = currentChunk.transform.Find(positionStr);
-            var goalPos = playerGoalPoint.position;
+            goalPos = playerGoalPoint.position;
             if (playerGoalPoint != null && !CheckForTerrain(goalPos))
             {
                 SpawnChunk(goalPos);
@@ -92,14 +102,33 @@ public class MapController : MonoBehaviour
     bool CheckForTerrain(Vector3 searchPoint)
     {
         if (!Physics2D.OverlapCircle(searchPoint, checkerRadius, terrainMask))
+        {
+            Debug.Log("false");
             return false;
+        }
         else
+        {
+            Debug.Log("true");
             return true;
+        }
     }
 
     void SpawnChunk(Vector3 terrainSpawnPosition)
     {        
         int rand = Random.Range(0, terrainChunks.Count);
-        Instantiate(terrainChunks[rand], terrainSpawnPosition, Quaternion.identity);
+        latestChunk = Instantiate(terrainChunks[rand], terrainSpawnPosition, Quaternion.identity);
+        spawnedChunks.Add(latestChunk);
+    }
+
+    void OptimizeChunks()
+    {
+        foreach (var chunk in spawnedChunks)
+        {
+            opDist = Vector3.Distance(playerPosition, chunk.transform.position);
+            if (opDist > maxOpDist)
+                chunk.SetActive(false);
+            else
+                chunk.SetActive(true);
+        }
     }
 }
