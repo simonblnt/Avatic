@@ -62,10 +62,10 @@
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMCarousel.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMPopup.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMScrollviewButton.cs" />
+    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSpriteReplaceCycle.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSpriteReplace.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMCheckbox.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSwitch.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MMSpriteReplaceCycle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Scripts\MoreMountains.Interface.asmdef" />

@@ -59,12 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryEngineMenu.cs" />
+    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\DefineSymbols\InventoryEngineDefineSymbols.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\GUI\InventorySlotEditor.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\GUI\InventoryDisplayEditor.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\PickableInventoryItemEditor.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\DefineSymbols\InventoryEngineDefineSymbols.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryEditor.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\InventoryItemEditor.cs" />
+    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\Core\PickableInventoryItemEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Editor\MoreMountains.InventoryEngine.Editor.asmdef" />

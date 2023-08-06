@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{E1979AAA-E182-385A-A76C-34485CDBEB41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -60,14 +61,15 @@
   <ItemGroup>
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\DefineSymbols\TopDownEngineDefineSymbols.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\Characters\CharacterAbilities\CharacterAbilityInspector.cs" />
+    <Compile Include="Assets\Imports\TopDownEngine\Common\ScriptsCinemachine\Editor\Environment\TeleporterEditor.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\Characters\Core\CharacterInspector.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\ScriptsCinemachine\Editor\Environment\RoomEditor.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\Items\PickableAbilityInspector.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\Common\ScriptsCinemachine\Editor\Environment\TeleporterEditor.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\Welcome\DependencyInstaller.cs" />
     <Compile Include="Assets\Imports\TopDownEngine\Common\Editor\Welcome\WelcomeWindow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="Assets\Imports\TopDownEngine\Common\ScriptsCinemachine\Editor\MoreMountains.TopDownEngine.Cinemachine.Editor.asmref" />
     <None Include="Assets\Imports\TopDownEngine\Common\Editor\MoreMountains.TopDownEngine.Editor.asmdef" />
   </ItemGroup>

@@ -1,0 +1,44 @@
+[
+  {
+    "CharacterBaseClass": 0,
+    "CharacterClass": 0,
+    "CharacterRarity": 0,
+    "Life": 10.0,
+    "Armor": 0.0,
+    "BlkChance": 0.01,
+    "BlkEfficiency": 0.1,
+    "MovementSpeed": 0.0,
+    "CDReduction": 0.0,
+    "Damage": 0.0,
+    "AttackSpeed": 0.0,
+    "CritChance": 0.0
+  },
+  {
+    "CharacterBaseClass": 1,
+    "CharacterClass": 0,
+    "CharacterRarity": 0,
+    "Life": 4.0,
+    "Armor": 1.0,
+    "BlkChance": 0.0,
+    "BlkEfficiency": 0.0,
+    "MovementSpeed": 0.0,
+    "CDReduction": 0.0,
+    "Damage": 0.0,
+    "AttackSpeed": 0.0,
+    "CritChance": 0.0
+  },
+  {
+    "CharacterBaseClass": 1,
+    "CharacterClass": 1,
+    "CharacterRarity": 0,
+    "Life": 4.0,
+    "Armor": 0.0,
+    "BlkChance": 0.0,
+    "BlkEfficiency": 0.0,
+    "MovementSpeed": 0.0,
+    "CDReduction": 0.0,
+    "Damage": 0.0,
+    "AttackSpeed": 0.0,
+    "CritChance": 0.0
+  }
+]

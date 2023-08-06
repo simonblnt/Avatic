@@ -32,7 +32,9 @@ namespace MoreMountains.TopDownEngine
 		[MMInformation("The Character script is the mandatory basis for all Character abilities. Your character can either be a Non Player Character, controlled by an AI, or a Player character, controlled by the player. In this case, you'll need to specify a PlayerID, which must match the one specified in your InputManager. Usually 'Player1', 'Player2', etc.",MoreMountains.Tools.MMInformationAttribute.InformationType.Info,false)]
 		/// Is the character player-controlled or controlled by an AI ?
 		[Tooltip("Is the character player-controlled or controlled by an AI ?")]
-		public CharacterTypes CharacterType = CharacterTypes.AI;
+		public CharacterTypes CharacterType = CharacterTypes.Player;
+
+		public CharacterBaseClass CharacterBaseClass { get; }
 		/// Only used if the character is player-controlled. The PlayerID must match an input manager's PlayerID. It's also used to match Unity's input settings. So you'll be safe if you keep to Player1, Player2, Player3 or Player4
 		[Tooltip("Only used if the character is player-controlled. The PlayerID must match an input manager's PlayerID. It's also used to match Unity's input settings. So you'll be safe if you keep to Player1, Player2, Player3 or Player4")]
 		public string PlayerID = "";
