@@ -30,5 +30,13 @@ public class TimerController : MonoBehaviour
 #endif
         }
 
+        
+
+    }
+
+
+    public float GetTimer()
+    {
+        return timer;
     }
 }

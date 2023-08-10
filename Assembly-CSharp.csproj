@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Controllers\MapController.cs" />
+    <Compile Include="Assets\Controllers\UIController.cs" />
     <Compile Include="Assets\Controllers\TimerController.cs" />
     <Compile Include="Assets\Controllers\ChunkTrigger.cs" />
   </ItemGroup>
