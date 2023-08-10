@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{79618CEA-5FA9-A2D0-67BF-4731CA07EFF5}</ProjectGuid>
+    <ProjectGuid>{1B391F8C-325E-D5E7-980D-25751ACF3584}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>MoreMountains.InventoryEngine</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -58,39 +58,39 @@
     <Analyzer Include="C:\Program Files\Unity 2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Tests\InventoryTester.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\ItemPicker.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\BombItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryHotbar.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryInputActions.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryItemClasses.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySoundPlayer.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoCharacter.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\HealthBonusItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySlot.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryCharacterIdentifier.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryInputManager.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoGameManager.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\SerializedInventory.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplay.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplayTitle.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDisplayGrid.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\ChangeLevel.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\DemoCharacterInputManager.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\Inventory.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\InventoryDemoStorageBox.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\ArmorItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\Items\WeaponItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventorySelectionMarker.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Tests\EventTester.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\GUI\InventoryDetails.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Items\BaseItem.cs" />
-    <Compile Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\Core\InventoryEvents.cs" />
+    <Compile Include="Assets\Controllers\MapController.cs" />
+    <Compile Include="Assets\Controllers\TimerController.cs" />
+    <Compile Include="Assets\Controllers\ChunkTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\Demos\PixelRogue\Scripts\MoreMountains.InventoryEngine.Demos.asmref" />
-    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\InventoryEngine\Scripts\MoreMountains.InventoryEngine.asmdef" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\GreyScale.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\VerticalGradient.shader" />
+    <None Include="Assets\Imports\TopDownEngine\license.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\readme.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Styles\Mini\Fonts\Lato\OFL.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\Imports\TopDownEngine\readme.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\license.txt" />
+    <None Include="Assets\Imports\TopDownEngine\third-party-notices.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\HorizontalGradient.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Imports\TopDownEngine\IMPORTANT-HOW-TO-INSTALL.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -342,38 +342,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity 2022.3.4f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.Graphs">
-      <HintPath>C:\Program Files\Unity 2022.3.4f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
-      <HintPath>C:\Program Files\Unity 2022.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.IonicZip">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity 2022.3.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -750,17 +723,231 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity 2022.3.4f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.005">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="MoreMountains.Feedbacks.URP.csproj">
+      <Project>{530FDD93-54ED-65E2-784F-6DDD6CD97F2C}</Project>
+      <Name>MoreMountains.Feedbacks.URP</Name>
+    </ProjectReference>
     <ProjectReference Include="MoreMountains.Tools.csproj">
       <Project>{BAA95FDC-6AFC-9DBE-A571-E80788B7BBD7}</Project>
       <Name>MoreMountains.Tools</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.HDRP.csproj">
+      <Project>{1753A623-58CE-12BF-91D3-403023104208}</Project>
+      <Name>MoreMountains.Feedbacks.HDRP</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.TopDownEngine.Editor.csproj">
+      <Project>{E1979AAA-E182-385A-A76C-34485CDBEB41}</Project>
+      <Name>MoreMountains.TopDownEngine.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.NiceVibrations.csproj">
+      <Project>{31D9C74A-77F7-EA77-6456-7412B686A507}</Project>
+      <Name>MoreMountains.Feedbacks.NiceVibrations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Interface.csproj">
+      <Project>{825A43CD-3182-73F0-7077-D8C56253C5F4}</Project>
+      <Name>MoreMountains.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.InventoryEngine.csproj">
+      <Project>{79618CEA-5FA9-A2D0-67BF-4731CA07EFF5}</Project>
+      <Name>MoreMountains.InventoryEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.TopDownEngine.csproj">
+      <Project>{D2789769-BB1C-2A96-CA7A-3C65D26FD585}</Project>
+      <Name>MoreMountains.TopDownEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Cinemachine.csproj">
+      <Project>{B79FE92A-B5FC-F9FA-4B1B-8E645B8F068E}</Project>
+      <Name>MoreMountains.Feedbacks.Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Editor.csproj">
+      <Project>{935168D2-08E2-21DF-8709-1681FA384DE3}</Project>
+      <Name>MoreMountains.Feedbacks.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{B5DF98C7-9200-CE77-58FA-00F8DA2E18C1}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Tools.Editor.csproj">
+      <Project>{5D104B94-9546-5CCE-D03E-15B46B034436}</Project>
+      <Name>MoreMountains.Tools.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.TextMeshPro.csproj">
+      <Project>{8C9626C3-AC20-B541-3A32-D6AC1FF0659A}</Project>
+      <Name>MoreMountains.Feedbacks.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Interface.Editor.csproj">
+      <Project>{DA7F7041-DB67-0B6C-61D8-FC49540CBA54}</Project>
+      <Name>MoreMountains.Interface.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.PostProcessing.csproj">
+      <Project>{A21FD393-19A9-7B36-6138-D166015299E9}</Project>
+      <Name>MoreMountains.Feedbacks.PostProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.MMTools.csproj">
+      <Project>{BDB3E554-826C-E204-D661-0FD8A47E5F17}</Project>
+      <Name>MoreMountains.Feedbacks.MMTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.Authorizations.csproj">
+      <Project>{266535A7-61D5-1D24-0AC3-C9CE8E5462F5}</Project>
+      <Name>MoreMountains.Feedbacks.Authorizations</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.Feedbacks.csproj">
+      <Project>{6F3FDDEA-DCCC-D23F-AE3F-EA85B54825D3}</Project>
+      <Name>MoreMountains.Feedbacks</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{9FADD5AE-65B8-AB18-09F6-D1B87329D99C}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="MoreMountains.InventoryEngine.Editor.csproj">
+      <Project>{3AC30163-8F6F-9FF5-167B-1A4CC23FD145}</Project>
+      <Name>MoreMountains.InventoryEngine.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
