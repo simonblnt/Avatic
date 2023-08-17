@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 8e899978e8bd6874c89d05f5f97bfc52
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  using UnityEngine;
+using UnityEngine.UI;
+
+public class UIController : MonoBehaviour
+{
+    public Text timerText;
+    public TimerController timerController;
+
+    private void Update()
+    {
+        UpdateTimerDisplay();
+    }
+
+    void UpdateTimerDisplay()
+    {
+        // Update the timer text based on the TimerController's timer value
+        int seconds = Mathf.FloorToInt(timerController.GetTimer());
+        int minutes = seconds / 60;
+        seconds %= 60;
+
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+}
