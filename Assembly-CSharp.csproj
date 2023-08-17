@@ -70,7 +70,9 @@
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Common\Shaders\VerticalGradient.shader" />
     <None Include="Assets\Imports\TopDownEngine\license.txt" />
+    <None Include="Assets\Graphics\Prefabs\Hero Knight\Hero Knight\EULA.txt" />
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Graphics\Prefabs\Hero Knight\Hero Knight\Instructions.txt" />
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\InventoryEngine\readme.txt" />
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\MoreMountains\MMInterface\Styles\Mini\Fonts\Lato\OFL.txt" />
     <None Include="Assets\Imports\TopDownEngine\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
